@@ -574,7 +574,7 @@
             <div class="card border-success">
                 <div class="card-header bg-success text-white fw-bold text-center py-3" style="background: linear-gradient(135deg, #10b981 0%, #059669 100%);">Stylized Result</div>
                 <div class="card-body p-0">
-                    <img src="{{ url_for('send_image', filename=result_image) }}" class="img-fluid w-100" alt="Stylized Image" style="border-radius: 0 0 20px 20px;">
+                    <img src="{{ url_for('send_image', filename=result_image) }}" class="img-fluid mx-auto d-block"alt="Stylized Image"style="max-width: 450px; max-height: 450px; border-radius: 0 0 20px 20px;">
                 </div>
                 <div class="card-footer text-center" style="background: transparent; border-top: none; padding-bottom: 20px;">
                     <a href="{{ url_for('send_image', filename=result_image) }}" download class="btn btn-outline-light mt-2">Download Result</a>
