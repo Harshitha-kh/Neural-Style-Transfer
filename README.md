@@ -183,7 +183,7 @@ http://127.0.0.1:5000
 
 ## 🏠 Home Pages
 
-![Home Page](images/home1.png)
+![Home Page](images/banner.png)
 
 ---
 
