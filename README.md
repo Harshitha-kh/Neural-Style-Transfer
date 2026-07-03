@@ -181,39 +181,30 @@ http://127.0.0.1:5000
 
 # 📸 Application Screenshots
 
-## 🏠 Home Page
+## 🏠 Home Pages
 
 ![Home Page](images/home1.png)
 
 ---
 
-## 📤 Upload Content & Style Images
-
-![Upload Images](images/upload.png)
-
----
-
-## 🎨 Main Interface
-
 ![Main Interface](images/home2.png)
 
 ---
-
-## 🖼 User Interface Preview
 
 ![Preview](images/home3.png)
 
 ---
 
-## ⚙ Processing Interface
-
 ![Processing](images/home4.png)
 
 ---
 
-## ✨ Final Interface
-
 ![Final Interface](images/home5.png)
+
+
+## 📤 Upload Content & Style Images
+
+![Upload Images](images/upload.png)
 
 ---
 
