@@ -229,8 +229,6 @@ http://127.0.0.1:5000
 
 # 🙏 Acknowledgements
 
-This project was developed as a learning project based on the Neural Style Transfer implementation by **Shradha Khapra**.
-
 The project has been customized and extended with:
 
 - Flask-based web application
