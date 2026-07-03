@@ -5,9 +5,11 @@
 </p>
 
 <p align="center">
+  <b>Transform ordinary photographs into artistic masterpieces using Deep Learning and PyTorch.</b>
+</p>
 
-Transform ordinary photographs into artistic artwork using Deep Learning and PyTorch.
-
+<p align="center">
+A Flask-based web application that combines the content of one image with the artistic style of another using Neural Style Transfer.
 </p>
 
 ---
@@ -16,48 +18,54 @@ Transform ordinary photographs into artistic artwork using Deep Learning and PyT
 
 📹 **Project Demonstration**
 
-> *(Demo video link will be added here.)*
+> *Demo video will be added soon.*
 
 ---
 
 ## 📷 Project Preview
 
-> *(GIF preview will be added here.)*
+> *Animated GIF preview will be added soon.*
 
-```markdown
+<!--
 ![Project Demo](images/demo.gif)
-```
+-->
 
 ---
 
 # 📖 About the Project
 
-Neural Style Transfer is a Deep Learning application that merges the **content of one image** with the **style of another** to generate artistic images.
+Neural Style Transfer (NST) is a Deep Learning technique that generates artistic images by combining the **content of one image** with the **style of another**.
 
-This project provides an easy-to-use web interface where users can upload their own content and style images, adjust the style intensity, and download the generated artwork.
+This project provides a user-friendly web application where users can:
 
-The application is built using **Flask** and **PyTorch**, making advanced deep learning accessible through a simple browser interface.
+- Upload a content image
+- Upload a style image
+- Adjust the style intensity
+- Generate an artistic image
+- Download the stylized result
+
+The application is built using **Flask** for the web interface and **PyTorch** for deep learning inference.
 
 ---
 
 # ✨ Features
 
-- Upload Content Image
-- Upload Style Image
-- Adjustable Style Strength
-- Real-time Image Generation
-- Download Generated Image
-- Responsive User Interface
-- Deep Learning powered by PyTorch
-- Ready for Cloud Deployment
+- 🖼 Upload Content Image
+- 🎨 Upload Style Image
+- 🎛 Adjustable Style Strength
+- ⚡ Fast Image Generation
+- 📥 Download Generated Image
+- 💻 Responsive User Interface
+- 🧠 Powered by PyTorch Deep Learning
+- ☁ Docker & Cloud Deployment Ready
 
 ---
 
 # 🛠 Tech Stack
 
 | Category | Technologies |
-|----------|--------------|
-| Frontend | HTML, CSS, Bootstrap |
+|-----------|--------------|
+| Frontend | HTML5, CSS3, Bootstrap |
 | Backend | Flask |
 | Deep Learning | PyTorch, TorchVision |
 | Image Processing | Pillow |
@@ -68,16 +76,17 @@ The application is built using **Flask** and **PyTorch**, making advanced deep l
 
 # 🧠 How It Works
 
-1. Upload a Content Image.
-2. Upload a Style Image.
-3. Select the desired style strength.
-4. The model extracts content and style features.
-5. Neural Style Transfer combines both representations.
-6. Download the generated artistic image.
+1. Upload a **Content Image**.
+2. Upload a **Style Image**.
+3. Adjust the **Style Strength**.
+4. Click **Generate**.
+5. The model extracts content and style features.
+6. Adaptive Instance Normalization combines both representations.
+7. Download the generated artistic image.
 
 ---
 
-# 🏗 Project Architecture
+# 🏗 Model Architecture
 
 ```text
 Content Image
@@ -92,7 +101,7 @@ Style Image
 Encoder
        │
        ▼
-Adaptive Instance Normalization
+Adaptive Instance Normalization (AdaIN)
        │
        ▼
 Decoder
@@ -108,7 +117,18 @@ Stylized Output
 ```text
 Neural-Style-Transfer/
 │
+├── images/
+│   ├── banner.png
+│   ├── home1.png
+│   ├── home2.png
+│   ├── home3.png
+│   ├── home4.png
+│   ├── home5.png
+│   ├── upload.png
+│   └── output.png
+│
 ├── NST_Code/
+│
 ├── static/
 │   ├── uploads/
 │   ├── outputs/
@@ -117,8 +137,8 @@ Neural-Style-Transfer/
 ├── templates/
 │
 ├── app.py
-├── requirements.txt
 ├── Dockerfile
+├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
@@ -127,31 +147,31 @@ Neural-Style-Transfer/
 
 # 🚀 Installation
 
-### Clone Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/Harshitha-kh/Neural-Style-Transfer.git
 ```
 
-### Enter Directory
+## Navigate to the Project
 
 ```bash
 cd Neural-Style-Transfer
 ```
 
-### Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run Application
+## Run the Application
 
 ```bash
 python app.py
 ```
 
-Open your browser:
+Open your browser and visit:
 
 ```
 http://127.0.0.1:5000
@@ -159,47 +179,77 @@ http://127.0.0.1:5000
 
 ---
 
-# 📸 Screenshots
+# 📸 Application Screenshots
 
 ## 🏠 Home Page
 
-> *(Add Screenshot Here)*
+![Home Page](images/home1.png)
 
 ---
 
-## 📤 Upload Images
+## 📤 Upload Content & Style Images
 
-> *(Add Screenshot Here)*
-
----
-
-## 🎨 Generated Output
-
-> *(Add Screenshot Here)*
+![Upload Images](images/upload.png)
 
 ---
 
-## 📥 Download Result
+## 🎨 Main Interface
 
-> *(Add Screenshot Here)*
+![Main Interface](images/home2.png)
+
+---
+
+## 🖼 User Interface Preview
+
+![Preview](images/home3.png)
+
+---
+
+## ⚙ Processing Interface
+
+![Processing](images/home4.png)
+
+---
+
+## ✨ Final Interface
+
+![Final Interface](images/home5.png)
+
+---
+
+## 🖌 Generated Output
+
+![Generated Output](images/output.png)
 
 ---
 
 # 📈 Future Enhancements
 
-- Multiple Style Selection
+- Multiple Artistic Styles
 - GPU Acceleration
+- Image Comparison Slider
 - User Authentication
-- Image Gallery
-- History of Generated Images
-- Batch Processing
+- Image History
+- Gallery of Generated Images
+- Batch Image Processing
 - Mobile Optimization
 
 ---
 
 # 🙏 Acknowledgements
 
-This project is inspired by research in Neural Style Transfer and utilizes PyTorch for deep learning implementation.
+This project was developed as a learning project based on the Neural Style Transfer implementation by **Shradha Khapra**.
+
+The project has been customized and extended with:
+
+- Flask-based web application
+- Image upload and download functionality
+- Adjustable style strength
+- Improved user interface
+- Docker deployment support
+- Comprehensive GitHub documentation
+
+Special thanks to the PyTorch community and open-source contributors for providing valuable learning resources.
 
 ---
 
@@ -207,15 +257,22 @@ This project is inspired by research in Neural Style Transfer and utilizes PyTor
 
 **Harshitha Kuchana**
 
-B.Tech Computer Science Engineering Student
+B.Tech – Computer Science Engineering
 
-GitHub:
-https://github.com/Harshitha-kh
+GitHub: **https://github.com/Harshitha-kh**
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, please consider giving it a ⭐ on GitHub!
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+Your support motivates me to build and share more open-source projects.
+
+---
+
+<p align="center">
+Made with ❤️ using Flask, PyTorch and Deep Learning
+</p>
 
 It helps others discover the project and motivates further improvements.
