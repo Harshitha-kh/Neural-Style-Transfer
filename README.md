@@ -16,21 +16,11 @@ A Flask-based web application that combines the content of one image with the ar
 
 ## 🎥 Demo
 
-📹 **Project Demonstration**
+## 🎥 Demo
 
-> *Demo video will be added soon.*
+▶️ **Google Drive Demo:**  
+https://drive.google.com/file/d/1DOnSbOIOVUqUnRsZ2hbOOCG1Av-ZiemT/view?usp=sharing
 
----
-
-## 📷 Project Preview
-
-> *Animated GIF preview will be added soon.*
-
-<!--
-![Project Demo](images/demo.gif)
--->
-
----
 
 # 📖 About the Project
 
